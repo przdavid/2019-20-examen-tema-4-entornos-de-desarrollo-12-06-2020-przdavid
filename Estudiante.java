@@ -20,10 +20,10 @@ enum Curso {
 public class Estudiante extends Persona{
 	Curso curso;
 	/**
-	 * @param nombre
-	 * @param apellidos
-	 * @param nif
-	 * @param curso
+	 * @param nombre: nombre del estudiante. (String).
+	 * @param apellidos: apellido del estudiante. (String).
+	 * @param nif: nif del estudiante. (String).
+	 * @param curso: curso del estudiante. (String).
 	 */
 	protected Estudiante(String nombre, String apellidos, String nif,
 			Curso curso) {
@@ -34,14 +34,14 @@ public class Estudiante extends Persona{
 	}
 
 	/**
-	 * @return the curso
+	 * @return curso del estudiante
 	 */
 	protected Curso getCurso() {
 		return curso;
 	}
 
 	/**
-	 * @param curso the curso to set
+	 * @param asigna curso a un estudiante.
 	 */
 	protected void setCurso(Curso curso) {
 		this.curso = curso;

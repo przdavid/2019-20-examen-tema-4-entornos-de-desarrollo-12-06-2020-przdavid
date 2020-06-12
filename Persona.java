@@ -1,5 +1,9 @@
 package refactorizacion;
 
+/**
+ * @author David Pérez Ruiz.
+ */
+
 public class Persona {
 
 	protected String nombre;
@@ -11,42 +15,42 @@ public class Persona {
 	}
 
 	/**
-	 * @return the nombre
+	 * @return nombre de una persona.
 	 */
 	protected String getNombre() {
 		return nombre;
 	}
 
 	/**
-	 * @param nombre the nombre to set
+	 * @param asigna nombre a una persona.
 	 */
 	protected void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
 	/**
-	 * @return the apellidos
+	 * @return apellidos de una persona.
 	 */
 	protected String getApellidos() {
 		return apellidos;
 	}
 
 	/**
-	 * @param apellidos the apellidos to set
+	 * @param asigna apellidos a una persona.
 	 */
 	protected void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
 
 	/**
-	 * @return the nif
+	 * @return NIF de una persona.
 	 */
 	protected String getNif() {
 		return nif;
 	}
 
 	/**
-	 * @param nif the nif to set
+	 * @param asigna NIF a una persona.
 	 */
 	protected void setNif(String nif) {
 		this.nif = nif;
